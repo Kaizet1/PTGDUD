@@ -8,14 +8,14 @@ const pages = [
   <Bai1 key="bai1" />,
   <Bai2 key="bai2" />,
   <Bai3 key="bai3" />,
-  <Bai4 key="bai4" />,
+  // <Bai4 key="bai4" />,
 ]
 
 const pageNames = [
   'Bài 1',
   'Bài 2',
   'Bài 3',
-  'Bài 4',
+  // 'Bài 4',
 ]
 
 const App = () => {
