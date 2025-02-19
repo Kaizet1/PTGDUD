@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 function Bai2() {
   const [number1, setNumber1] = useState(null);
@@ -25,7 +26,7 @@ function Bai2() {
         placeholder="Nhập số"
         onChange={(e) => setNumber2(e.target.value)}
       />
-      <button onClick={handleSum}>Add</button>
+      <Button color ="white" bgColor="black" onClick={handleSum}>Add</Button>
       <br />
       {sum && <span>Kết quả: {sum}</span>}
     </>
